@@ -1,0 +1,12 @@
+label{
+    text-align: left;
+    color:gray;
+}
+input{
+    border:none;
+    border-bottom:2px solid gray;
+    text-align: center;
+}
+input::placeholder{
+    color:black;
+}

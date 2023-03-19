@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            text-align: left;
+            color:gray;
+        }
+        input{
+            border:none;
+            border-bottom:2px solid gray;
+            text-align: center;
+        }
+        input::placeholder{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label>
+                Full Name
+            </label>
+            <br>
+            <br>
+            <input type="text">
+            </input>
+            <br>
+            <br>
+        </div>
+        <div>
+            <label>
+                E-mail
+            </label>
+            <br>
+            <br>
+            <input type="email" placeholder="<?php echo $_SESSION['email']?>;" readonly>
+            </input>
+            <br>
+            <br>
+        </div>
+        <div>
+            <label>
+                ContactNo
+            </label>
+            <br>
+            <br>
+            <input type="el">
+            </input>
+            <br>
+            <br>
+        </div>
+        <div>
+            <label>
+                Address
+            </label>
+            <br>
+            <br>
+            <textarea rows="5" cols="30">
+            </textarea>
+            <br>
+            <br>
+        </div>
+    </form>
+</body>
+</html>
